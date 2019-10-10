@@ -95,7 +95,9 @@ const data = [
 // SELECTORS
 
 // INIT
+
 init()
+
 
 // FUNCTIONS
 function init() {
@@ -105,6 +107,7 @@ function init() {
 
 function show(movies) {
     let output = document.getElementById("output")
+    output.innerHTML = ""
     for(movie of movies) {
         output.innerHTML += 
         `
@@ -147,6 +150,12 @@ function registerEventListeners() {
     input.addEventListener('keyup', (e) => {
         search(input)
     })
+
+    // SELECTING SELECT
+    let select = document.getElementById('select')
+    select.addEventListener('change', (e) => {
+        sortArr(data, select)
+    })
 }
 
 function search(input) {
@@ -168,5 +177,36 @@ function search(input) {
     
         }
     }
+}
 
+function sortArr(arr, select) {
+    console.log(select.value)
+
+    switch(select.value) {
+        case "shortest":
+            arr.sort((a, b) => {
+            if(parseInt(a.runtime) > parseInt(b.runtime)) {
+                return 1
+            } else {
+                return -1
+            }
+        })
+            break
+
+        case "longest":
+                arr.sort((a, b) => {
+                    if(parseInt(a.runtime) < parseInt(b.runtime)) {
+                        return 1
+                    } else {
+                        return -1
+                    }
+                })
+            break
+
+        default :
+            break
+    }
+
+    show(data)
+    
 }

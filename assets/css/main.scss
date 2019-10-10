@@ -16,6 +16,13 @@ header {
     background-color: #eee;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
     h1{
         font-size: 2em;
     }

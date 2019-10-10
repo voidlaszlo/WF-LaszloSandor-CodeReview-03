@@ -105,7 +105,6 @@ main.container div#output div.movie div.movie-details div.details-bottom p {
 
 main.container div#output div.movie div.movie-details div.details-bottom p:nth-child(3) {
   color: green;
-  text-align: right;
 }
 
 main.container div#output div.movie div.movie-details div.details-bottom button.like-button {

@@ -135,12 +135,9 @@ function registerEventListeners() {
     let buttons = document.querySelectorAll('.like-button')
     for (button of buttons) {
         button.addEventListener('click', (e) => {
-            console.log(e.target.parentNode.children[2])
             let countOutput = e.target.parentNode.children[2]
-            console.log(countOutput)
             let count = parseInt(e.target.parentNode.children[2].innerText.split(" ")[2])
             count++
-            console.log(count)
             countOutput.innerHTML = `<p>Likes : ${count}</p>`
         })
     }
@@ -180,7 +177,6 @@ function search(input) {
 }
 
 function sortArr(arr, select) {
-    console.log(select.value)
 
     switch(select.value) {
         case "shortest":
@@ -208,5 +204,6 @@ function sortArr(arr, select) {
     }
 
     show(data)
+    registerEventListeners()
     
 }

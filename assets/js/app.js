@@ -5,7 +5,7 @@ const data = [
         "title" : "Django Unchained",
         "description" : "Blabla bla description",
         "runtime" : "165",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "100",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -14,7 +14,7 @@ const data = [
         "title" : "Django Eria",
         "description" : "Blabla bla description",
         "runtime" : "120",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -23,7 +23,7 @@ const data = [
         "title" : "Ejango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "193",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -32,7 +32,7 @@ const data = [
         "title" : "Bjango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "70",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -41,7 +41,7 @@ const data = [
         "title" : "Kjango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "84",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -50,7 +50,7 @@ const data = [
         "title" : "Ljango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "72",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -59,7 +59,7 @@ const data = [
         "title" : "Mjango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "170",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -68,7 +68,7 @@ const data = [
         "title" : "Zjango Unchained",
         "description" : "Blabla bla description",
         "runtime" : "172",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -77,7 +77,7 @@ const data = [
         "title" : "Django Unchained",
         "description" : "Blabla bla description",
         "runtime" : "93",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     },
@@ -86,7 +86,7 @@ const data = [
         "title" : "Django Unchained",
         "description" : "Blabla bla description",
         "runtime" : "83",
-        "directior" : "Quentin Tarantino",
+        "director" : "Quentin Tarantino",
         "likes" : "86",
         "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
     }

@@ -1,5 +1,5 @@
 // DATA
-const data = [
+let data = [
     {
         "id" : "1",
         "title" : "Django Unchained",
@@ -11,96 +11,96 @@ const data = [
     },
     {
         "id" : "2",
-        "title" : "Django Eria",
+        "title" : "Matrix",
         "description" : "Blabla bla description",
-        "runtime" : "120",
-        "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "runtime" : "136",
+        "director" : "The Wachowski Brothers",
+        "likes" : "63",
+        "img" : "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
     },
     {
         "id" : "3",
-        "title" : "Ejango Unchained",
+        "title" : "Joker",
         "description" : "Blabla bla description",
         "runtime" : "193",
-        "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "director" : "Todd Philips",
+        "likes" : "23",
+        "img" : "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
     },
     {
         "id" : "4",
-        "title" : "Bjango Unchained",
+        "title" : "Star Wars : The Last Jedi",
         "description" : "Blabla bla description",
         "runtime" : "70",
-        "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "director" : "Rian Johnson",
+        "likes" : "150",
+        "img" : "https://vignette.wikia.nocookie.net/starwars/images/0/0e/TLJ_junior_novelization_final_cover.jpg/revision/latest?cb=20171223163204"
     },
     {
         "id" : "5",
-        "title" : "Kjango Unchained",
+        "title" : "Interstellar",
         "description" : "Blabla bla description",
         "runtime" : "84",
-        "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "director" : "Christopher Nolan",
+        "likes" : "140",
+        "img" : "https://i.etsystatic.com/17646166/r/il/524d9c/1505079846/il_794xN.1505079846_fq8f.jpg"
     },
     {
         "id" : "6",
-        "title" : "Ljango Unchained",
+        "title" : "The Avengers",
         "description" : "Blabla bla description",
         "runtime" : "72",
         "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "likes" : "120",
+        "img" : "http://www.coverwhiz.com/content/The-Avengers.jpg"
     },
     {
         "id" : "7",
-        "title" : "Mjango Unchained",
+        "title" : "Thor : Ragnarok",
         "description" : "Blabla bla description",
         "runtime" : "170",
         "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "likes" : "70",
+        "img" : "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
     },
     {
         "id" : "8",
-        "title" : "Zjango Unchained",
+        "title" : "Batman : The Dark Knight",
         "description" : "Blabla bla description",
         "runtime" : "172",
         "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "likes" : "20",
+        "img" : "https://img01.mgo-images.com/image/thumbnail/v2/content/1MV3625835fdea89978e1a59cd33bc357e9.jpeg"
     },
     {
         "id" : "9",
-        "title" : "Django Unchained",
+        "title" : "Matrix : Revolutions",
         "description" : "Blabla bla description",
         "runtime" : "93",
         "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "likes" : "90",
+        "img" : "https://m.media-amazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
     },
     {
         "id" : "10",
-        "title" : "Django Unchained",
+        "title" : "Aladdin",
         "description" : "Blabla bla description",
         "runtime" : "83",
         "director" : "Quentin Tarantino",
-        "likes" : "86",
-        "img" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+        "likes" : "15",
+        "img" : "https://www.openaircinemas.com.au/wp-content/uploads/2019/06/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_-1.jpg"
     }
 ]
 
 // SELECTORS
 
+
 // INIT
-
 init()
-
 
 // FUNCTIONS
 function init() {
+    sortArr(data, "")
     show(data)
     registerEventListeners()
 }
@@ -128,6 +128,8 @@ function show(movies) {
         </div>
         `
     }
+
+    
 }
 
 function registerEventListeners() {
@@ -135,10 +137,14 @@ function registerEventListeners() {
     let buttons = document.querySelectorAll('.like-button')
     for (button of buttons) {
         button.addEventListener('click', (e) => {
+            let movieId = e.target.parentNode.parentNode.parentNode.attributes[0].value
             let countOutput = e.target.parentNode.children[2]
             let count = parseInt(e.target.parentNode.children[2].innerText.split(" ")[2])
             count++
             countOutput.innerHTML = `<p>Likes : ${count}</p>`
+            for(movie of data) {
+                movie.id == movieId ? movie.likes = `${count}` : 0
+            }
         })
     }
 
@@ -181,25 +187,42 @@ function sortArr(arr, select) {
     switch(select.value) {
         case "shortest":
             arr.sort((a, b) => {
-            if(parseInt(a.runtime) > parseInt(b.runtime)) {
-                return 1
-            } else {
-                return -1
-            }
-        })
+                if(parseInt(a.runtime) > parseInt(b.runtime)) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
             break
 
         case "longest":
-                arr.sort((a, b) => {
-                    if(parseInt(a.runtime) < parseInt(b.runtime)) {
-                        return 1
-                    } else {
-                        return -1
-                    }
-                })
+            arr.sort((a, b) => {
+                if(parseInt(a.runtime) < parseInt(b.runtime)) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
+            break
+
+        case "popular":
+            arr.sort((a, b) => {
+                if(parseInt(a.likes) < parseInt(b.likes)) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
             break
 
         default :
+            arr.sort((a, b) => {
+                if(a.title > b.title) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
             break
     }
 

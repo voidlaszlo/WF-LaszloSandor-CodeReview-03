@@ -135,18 +135,7 @@ function show(movies) {
 function registerEventListeners() {
     // SELECTING LIKE BUTTONS
     let buttons = document.querySelectorAll('.like-button')
-    for (button of buttons) {
-        button.addEventListener('click', (e) => {
-            let movieId = e.target.parentNode.parentNode.parentNode.attributes[0].value
-            let countOutput = e.target.parentNode.children[2]
-            let count = parseInt(e.target.parentNode.children[2].innerText.split(" ")[2])
-            count++
-            countOutput.innerHTML = `<p>Likes : ${count}</p>`
-            for(movie of data) {
-                movie.id == movieId ? movie.likes = `${count}` : 0
-            }
-        })
-    }
+    like(buttons)
 
     // SELECTING INPUT
     let input = document.getElementById('search')
@@ -165,7 +154,7 @@ function search(input) {
 
     let movies = document.querySelectorAll('.movie') 
     
-    for(movie of movies) {
+    for(let movie of movies) {
         if(input.value == "") {
         
             movie.classList.remove("hidden")
@@ -180,6 +169,25 @@ function search(input) {
     
         }
     }
+}
+
+function like(buttons) {
+
+    for (let button of buttons) {
+        button.addEventListener('click', (e) => {
+
+            let movieId = e.target.parentNode.parentNode.parentNode.attributes[0].value
+            let countOutput = e.target.parentNode.children[2]
+            let count = parseInt(e.target.parentNode.children[2].innerText.split(" ")[2])
+            count++
+            countOutput.innerHTML = `<p>Likes : ${count}</p>`
+            for(movie of data) {
+                movie.id == movieId ? movie.likes = `${count}` : 0
+            }
+
+        })
+    }
+
 }
 
 function sortArr(arr, select) {

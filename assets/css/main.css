@@ -79,6 +79,12 @@ main.container {
   }
 }
 
+@media screen and (max-width: 330px) {
+  main.container {
+    padding: 0;
+  }
+}
+
 main.container div#output {
   display: -ms-grid;
   display: grid;

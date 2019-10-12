@@ -3,9 +3,15 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 // BREAKPOINTS
 $breakpoint-mobile : 495px;
-$breakpoint-tablet : 768px;
+$breakpoint-tablet : 1150px;
+$breakpoint-desktop : 1920px;
 
 .hidden {
     display: none;
@@ -41,11 +47,28 @@ header {
 
 main.container {
     padding: 2em;
+    margin: 0 auto;
+    max-width: 80%;
+
+    @media screen and (max-width: $breakpoint-desktop) {
+        grid-template-columns: 1fr;
+        padding: 2em;
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        grid-template-columns: 1fr;
+        padding: 1em;
+        max-width: 100%;
+    }
 
     @media screen and (max-width: $breakpoint-mobile) {
         grid-template-columns: 1fr;
         padding: 1em;
+        max-width: 100%;
     }
+
+    
 
     div#output {
         display: grid;
